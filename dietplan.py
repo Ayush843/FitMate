@@ -1,6 +1,6 @@
 def calculate_bmr(weight, height, age, gender):
     """
-    Calculate the Basal Metabolic Rate (BMR) using the Mifflin-St Jeor Equation.
+    Calculate the Basal Metabolic Rate (BMR) using the Mifflin-St Jeor Equation. Helps in bodybuilding
     """
     if gender.lower() == 'male':
         bmr = 10 * weight + 6.25 * height - 5 * age + 5
