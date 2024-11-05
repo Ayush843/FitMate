@@ -3,7 +3,7 @@ import mediapipe as mp
 import numpy as np
 
 def calculate_angle(a, b, c):
-    a = np.array(a)  
+    a = np.array(a) 
     b = np.array(b) 
     c = np.array(c)
     
